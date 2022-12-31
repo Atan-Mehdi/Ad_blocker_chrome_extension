@@ -1,0 +1,13 @@
+{
+    "name": "Ad Blocker by Atan",
+    "description": "Blocks ads on any website",
+    "manifest_version": 2,
+    "version": "1.01",
+    "background": {
+        "scripts": ["list_of_blocked_sites.js", "script.js"]
+    },
+    "icons": {
+        "128"   : "ads.png"
+    },
+    "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"]
+}
